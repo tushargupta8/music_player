@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(60, 48, 48);
+}
+img{
+width: 100%;
+height: 700px;
+}
+audio{
+width: 100%;
+padding-top: 10px;
+}
+#forward,#backward{
+display: inline-block;
+position: relative;
+left: 50%;
+}
+button{
+padding: 10px;
+border-radius: 10px;
+background-color: white;
+}
+
+button:hover{
+background-color: black;
+color: white;
+transition: 1s;
+text-transform: uppercase;
+}
